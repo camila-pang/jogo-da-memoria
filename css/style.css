@@ -29,3 +29,16 @@ body{
 .back{
     background: url('../img/verso.jpg');
 }
+.back.flipped{
+    transform: rotateY(180deg);
+}
+.front{
+    background: url("../img/0.jpg");
+    transform: rotateY(-180deg);
+}
+.front.flipped{
+    transform: rotateY(0deg);
+}
+.card:hover{
+    box-shadow: 0 0 10px #aaa;
+}
